@@ -1,0 +1,143 @@
+/* CSS HEX 
+--silver: #B4B9B7ff;
+--charcoal: #434953ff;
+--paynes-gray: #68707Aff;
+--buff: #DDB287ff;
+--licorice: #190B0Aff;
+--taupe-gray: #837879ff;
+--chestnut: #884838ff;
+--liver: #7E6159ff;
+--charcoal-2: #2A3F4Cff;
+--cadet-gray: #8C969Bff; */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.afacad-<uniquifier> {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Afacad", sans-serif;
+    font-style: normal;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 4px;
+}
+
+#linkedin-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 34px;
+    box-shadow: 0px 1px 5px black;
+    border: 0;
+    border-radius: 0;
+}
+
+.hero {
+    background-image: url(./images/daniel-brosch-eMuLmMbO_0A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    text-align: left;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0%;
+}
+
+#profile-picture {
+    border: 1px solid green;
+    border-radius: 100%;
+    margin: 12px 110px 0px 12px;
+    box-shadow: 0px 1px 5px black;
+    width: 60px;
+    height: auto;
+}
+
+#hero-title {
+    width: 400px;
+    position: relative;
+    margin: 0px auto 0px auto;
+}
+
+.exp-title {
+        color: #FFEF00;
+        font-size: small;
+}
+
+#background-gradient {
+    background: linear-gradient(#e0ded2, #87a0a4);
+    border: 1px solid #e0ded2;
+    height: 1000px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #c39090;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 30px;
+}
+
+#guide-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.galerie, .forum, .wall {
+    background-color: #87a0a4;
+    height: 250px;
+    width: 220px;
+    padding-top: 8px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 1px 5px black;
+    transition: all .2s ease-in-out; 
+}
+
+.galerie:hover {
+   transform: scale(1.1);  
+}
+
+.forum:hover {
+   transform: scale(1.1);  
+}
+
+.wall:hover {
+   transform: scale(1.1);  
+}
+
+p, h4 {
+   font-size: small; 
+   padding: 5px;
+   margin: 5px;
+}
+
+.guide {
+    margin: 80px auto 80px auto;
+    padding: 10px;
+    background-color: #91c291;
+    width: 400px;
+    border-radius: 5px;
+    border-bottom: 7px solid #87a0a4;
+    box-shadow: 0px 1px 5px black;
+}
